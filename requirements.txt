@@ -1,0 +1,6 @@
+solana
+solders
+spl
+base58
+loguru
+httpx[socks]
