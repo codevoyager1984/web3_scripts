@@ -39,14 +39,8 @@ tx = Transaction(
 )
 
 tx_resp = client.send_transaction(tx, opts=TxOpts(skip_preflight=True))
-print(f"Transaction signature: {tx_resp.value}")
+logger.info(f"Transaction signature: {tx_resp.value}")
 
-# Wait for transaction confirmation
-while True:
-    tx_response = client.get_transaction(tx_resp.value, encoding='json', commitment='confirmed')
-    if tx_response.value:
-        fee = tx_response.value.transaction.meta.fee
-        logger.info(f"Transaction result: fee={fee / sol_lamports} SOL")
-        break
-    time.sleep(1)
+client.confirm_transaction(tx_resp.value)
+
 
