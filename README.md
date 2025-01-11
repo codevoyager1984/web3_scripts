@@ -8,6 +8,7 @@
 4. [Get Token Balance](./scripts/simple/sol_token_balance.py)
 5. [Transfer SOL with fixed amount](./scripts/simple/sol_transfer.py)
 6. [Transfer SOL with all balance](./scripts/simple/sol_transfer_all.js)
+7. [Transfer SPL Token with all balance](./scripts/simple/sol_transfer_token.js)
 
 ## Advanced
 
