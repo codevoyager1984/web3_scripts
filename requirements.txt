@@ -4,3 +4,4 @@ spl
 base58
 loguru
 httpx[socks]
+web3
