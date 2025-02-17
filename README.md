@@ -9,9 +9,10 @@
 5. [Transfer SOL with fixed amount](./scripts/simple/sol_transfer.py)
 6. [Transfer SOL with all balance](./scripts/simple/sol_transfer_all.js)
 7. [Transfer SPL Token with all balance](./scripts/simple/sol_transfer_token.js)
-8. [Base ETH Transfer](./scripts/simple/base_eth_transfer.py)
-9. [Base Token Transfer](./scripts/simple/base_token_transfer.py)
-10. [Base USDC Swap](./scripts/simple/base_swap_usdc_for_token.py)
+8. [ETH Transfer](./scripts/simple/eth_transfer.py)
+9. [ETH Token Transfer](./scripts/simple/eth_token_transfer.py)
+10. [Uniswap ETH for token](./scripts/simple/uniswap_eth_for_token.py)
+11. [Uniswap token for token](./scripts/simple/uniswap_token_to_token.py)
 
 ## Advanced
 
